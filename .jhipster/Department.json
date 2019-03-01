@@ -1,0 +1,23 @@
+{
+    "name": "Department",
+    "fields": [
+        {
+            "fieldName": "departmentName",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20190301070804",
+    "entityTableName": "department",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "sampleMicroService",
+    "applications": "*",
+    "microserviceName": "sampleMicroService"
+}
